@@ -19,3 +19,4 @@ Fill out the form fields with accurate information.
 Ensure proper validation messages are displayed for any incorrect entries.
 Upon successful submission, view the displayed output below the form.
 This project serves as a practical example for web form creation, validation, and dynamic content display.
+![alt text](Screenshot 2023-12-12 232521.png)
