@@ -1,20 +1,20 @@
-IT Student Club Form
-
+# IT Student Club Form
+---
 This project is a simple web form designed for the IT Student Club, allowing members to submit their information. The form includes fields for first name, last name, birth date, selected studies, preferred programming languages, and gender. The JavaScript validates the form inputs, ensuring accurate information is submitted. Upon successful validation, the form outputs the submitted details below an informative heading.
 
-#Features:
+## Features:
 
 Responsive design for various screen sizes.
 Form validation using JavaScript.
 Output display with user-submitted information.
 Modern and creative styling for an enhanced user experience.
 Technologies Used:
-
-HTML5
-CSS3
-JavaScript
+---
+> HTML5
+> CSS3
+> JavaScript
 How to Use:
-
+---
 Fill out the form fields with accurate information.
 Ensure proper validation messages are displayed for any incorrect entries.
 Upon successful submission, view the displayed output below the form.
