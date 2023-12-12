@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>IT Student Club Form</title>
+</head>
+<body>
+<div>
+  <h1>Page de connexion</h1>
+</div>
+  <div class="container">
+    <form id="studentForm" onsubmit="validateForm()">
+      <label for="firstName">Nom:</label>
+      <input type="text" id="firstName" name="firstName" >
+
+      <label for="lastName">P.nom:</label>
+      <input type="text" id="lastName" name="lastName" >
+
+      <label for="birthdate">date de naissance:</label>
+      <input type="date" id="birthdate" name="birthdate" >
+
+      <label for="studies">Class:</label>
+      <select id="studies" name="studies" >
+        <option value="DSI">DSI</option>
+        <option value="RSI">RSI</option>
+      </select>
+
+      <label>les langages préférés:</label>
+      <div class="checkbox-group">
+        <input type="checkbox" id="C++" name="programmingLanguage" value="C++">
+        <label for="C++">C++</label>
+        <input type="checkbox" id="Php" name="programmingLanguage" value="Php">
+        <label for="Php">Php</label>
+      </div>
+
+      <label>Genre:</label>
+      <div class="radio-group">
+        <input type="radio" id="male" name="gender" value="Male" >
+        <label for="male">M</label>
+        <input type="radio" id="female" name="gender" value="Female" >
+        <label for="female">F</label>
+      </div>
+
+      <button>Envoyer</button>
+    </form>
+  </div>
+  <div id="output">
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
